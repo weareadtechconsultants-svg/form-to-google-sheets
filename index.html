@@ -9,7 +9,7 @@
 
   form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    fetch(https://script.google.com/macros/s/AKfycbyOwJMtnZXZK-rrmbqKdI_Sqf86WcAKPfVLle-8c0Bgc47MZJgyx_2dTEVV_ltoAS9E/exec, { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
